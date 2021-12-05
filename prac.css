@@ -1,0 +1,44 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+}
+.login-box{
+width: 280px;
+height: 380px;
+position: absolute;
+top: 30%;
+color: white;
+left: 46%;
+background: rgb(138, 124, 124);
+border: 6px solid rgb(71, 71, 138);
+border-radius: 44px 10px 40px 10px;
+}
+.login-box h1{
+  float: left;
+  font-size: 37px;
+  border-bottom:7px solid red ;
+  margin-bottom: 50px;
+  padding: 15px;
+
+}
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  color: white;
+  border-bottom: 5px solid #4caf50;
+}
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color:red;
+}
